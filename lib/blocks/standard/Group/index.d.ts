@@ -1,4 +1,4 @@
-import { IBlock, IBlockData } from '@core/typings';
+import { IBlock, IBlockData } from '../../../typings';
 export declare type IGroup = IBlockData<{
     width?: string;
     'vertical-align'?: 'middle' | 'top' | 'bottom';

@@ -1,4 +1,4 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type ICarousel = IBlockData<{
     align?: string;
     'background-color'?: string;
@@ -23,4 +23,4 @@ export declare type ICarousel = IBlockData<{
         alt?: string;
     }>;
 }>;
-export declare const Carousel: import("@core/typings").IBlock<ICarousel>;
+export declare const Carousel: import("../../../typings").IBlock<ICarousel>;

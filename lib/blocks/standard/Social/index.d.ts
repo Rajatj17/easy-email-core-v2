@@ -1,4 +1,4 @@
-import { IBlock, IBlockData } from '@core/typings';
+import { IBlock, IBlockData } from '../../../typings';
 export declare type ISocial = IBlockData<{
     align?: string;
     color?: string;

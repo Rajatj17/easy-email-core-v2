@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IPage } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IPage } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type PageProps = RecursivePartial<IPage['data']> & RecursivePartial<IPage['attributes']> & {
     children?: MjmlBlockProps<IPage>['children'];
 };

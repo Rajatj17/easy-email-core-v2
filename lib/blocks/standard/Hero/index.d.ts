@@ -1,4 +1,4 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type IHero = IBlockData<{
     'background-color'?: string;
     'background-height'?: string;
@@ -12,4 +12,4 @@ export declare type IHero = IBlockData<{
     mode: 'fluid-height' | 'fixed-height';
     padding?: string;
 }, {}>;
-export declare const Hero: import("@core/typings").IBlock<IHero>;
+export declare const Hero: import("../../../typings").IBlock<IHero>;

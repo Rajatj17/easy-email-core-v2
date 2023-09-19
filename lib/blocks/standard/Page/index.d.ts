@@ -1,4 +1,4 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type IPage = IBlockData<{
     'background-color'?: string;
     width: string;
@@ -26,4 +26,4 @@ export declare type IPage = IBlockData<{
     };
     'content-background-color'?: string;
 }>;
-export declare const Page: import("@core/typings").IBlock<IPage>;
+export declare const Page: import("../../../typings").IBlock<IPage>;

@@ -1,2 +1,2 @@
-import { IBlock } from '@core/typings';
+import { IBlock } from '../typings';
 export declare function getAdapterAttributesString(params: Parameters<IBlock['render']>[0]): string;

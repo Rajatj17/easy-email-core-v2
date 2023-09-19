@@ -1,4 +1,4 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type IAccordion = IBlockData<{
     'icon-width': string;
     'icon-height': string;
@@ -14,4 +14,4 @@ export declare type IAccordion = IBlockData<{
     'icon-wrapped-alt'?: string;
     'icon-wrapped-url'?: string;
 }, {}>;
-export declare const Accordion: import("@core/typings").IBlock<IAccordion>;
+export declare const Accordion: import("../../../typings").IBlock<IAccordion>;

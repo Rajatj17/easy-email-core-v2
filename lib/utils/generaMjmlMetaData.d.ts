@@ -1,2 +1,2 @@
-import { IPage } from '@core/blocks';
+import { IPage } from '../blocks';
 export declare function generaMjmlMetaData(data: IPage): string;

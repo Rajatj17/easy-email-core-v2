@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IText } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IText } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type TextProps = RecursivePartial<IText['data']> & RecursivePartial<IText['attributes']> & {
     children?: MjmlBlockProps<IText>['children'];
 };

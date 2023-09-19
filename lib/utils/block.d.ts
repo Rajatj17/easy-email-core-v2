@@ -1,5 +1,5 @@
 import { BlockType } from './../constants';
-import { IBlock, IBlockData } from '@core/typings';
+import { IBlock, IBlockData } from '../typings';
 export declare function getPageIdx(): string;
 export declare function getChildIdx(idx: string, index: number): string;
 export declare function getNodeIdxClassName(idx: string): string;

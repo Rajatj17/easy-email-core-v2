@@ -1,6 +1,6 @@
-import { BasicType } from '@core/constants';
-import { IBlockData } from '@core';
+import { BasicType } from '../../constants';
+import { IBlockData } from '../..';
 export declare function generateAdvancedContentBlock<T extends IBlockData>(option: {
     type: string;
     baseType: BasicType;
-}): import("@core").IBlock<T>;
+}): import("../..").IBlock<T>;

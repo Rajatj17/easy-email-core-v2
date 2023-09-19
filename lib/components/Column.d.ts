@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IColumn } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IColumn } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type ColumnProps = RecursivePartial<IColumn['data']> & RecursivePartial<IColumn['attributes']> & {
     children?: MjmlBlockProps<IColumn>['children'];
 };

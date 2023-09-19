@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IImage } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IImage } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type ImageProps = RecursivePartial<IImage['data']> & RecursivePartial<IImage['attributes']> & {
     children?: MjmlBlockProps<IImage>['children'];
 };

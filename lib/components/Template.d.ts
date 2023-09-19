@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
+import { RecursivePartial } from '../typings';
 import React from 'react';
-import { ITemplate } from '@core/blocks';
+import { ITemplate } from '../blocks';
 export declare type TemplateProps = RecursivePartial<ITemplate['data']> & RecursivePartial<ITemplate['attributes']> & {
     children: string | React.ReactNode;
     idx?: string | null;

@@ -1,4 +1,4 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type IButton = IBlockData<{
     align?: string;
     color?: string;
@@ -27,4 +27,4 @@ export declare type IButton = IBlockData<{
 }, {
     content: string;
 }>;
-export declare const Button: import("@core/typings").IBlock<IButton>;
+export declare const Button: import("../../../typings").IBlock<IButton>;

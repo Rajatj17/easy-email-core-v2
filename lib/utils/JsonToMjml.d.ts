@@ -1,6 +1,6 @@
 import { JsonToMjmlOption } from './isProductionMode';
 import React from 'react';
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../typings';
 declare type EmailRenderProps = {
     children?: React.ReactNode;
     context?: IBlockData;

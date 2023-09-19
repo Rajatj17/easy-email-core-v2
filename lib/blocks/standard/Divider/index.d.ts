@@ -1,4 +1,4 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type IDivider = IBlockData<{
     'border-color'?: string;
     'border-style'?: string;
@@ -8,4 +8,4 @@ export declare type IDivider = IBlockData<{
     align?: 'left' | 'center' | 'right';
     padding?: string;
 }, {}>;
-export declare const Divider: import("@core/typings").IBlock<IDivider>;
+export declare const Divider: import("../../../typings").IBlock<IDivider>;

@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IGroup } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IGroup } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type GroupProps = RecursivePartial<IGroup['data']> & RecursivePartial<IGroup['attributes']> & {
     children?: MjmlBlockProps<IGroup>['children'];
 };

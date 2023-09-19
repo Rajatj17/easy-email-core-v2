@@ -1,5 +1,5 @@
-import { BasicType } from '@core/constants';
-import { IBlock, IBlockData } from '@core/typings';
+import { BasicType } from '../../constants';
+import { IBlock, IBlockData } from '../../typings';
 import { IPage } from '../standard';
 export declare function generateAdvancedBlock<T extends AdvancedBlock>(option: {
     type: string;

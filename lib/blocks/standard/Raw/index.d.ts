@@ -1,5 +1,5 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type IRaw = IBlockData<{}, {
     content: string;
 }>;
-export declare const Raw: import("@core/typings").IBlock<IRaw>;
+export declare const Raw: import("../../../typings").IBlock<IRaw>;

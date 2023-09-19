@@ -1,5 +1,5 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type ITemplate = IBlockData<{}, {
     idx?: string | null;
 }>;
-export declare const Template: import("@core/typings").IBlock<ITemplate>;
+export declare const Template: import("../../../typings").IBlock<ITemplate>;

@@ -1,5 +1,5 @@
 import React from 'react';
-import { IBlockData, RecursivePartial } from '@core/typings';
+import { IBlockData, RecursivePartial } from '../typings';
 export interface MjmlBlockProps<T extends IBlockData> {
     idx?: string | null;
     type: T['type'];

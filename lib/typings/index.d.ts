@@ -1,4 +1,4 @@
-import { IPage } from '@core/blocks';
+import { IPage } from '../blocks';
 export interface IBlock<T extends IBlockData = IBlockData> {
     name: string;
     type: string;

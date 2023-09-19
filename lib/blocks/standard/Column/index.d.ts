@@ -1,4 +1,4 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type IColumn = IBlockData<{
     'background-color'?: string;
     border?: string;
@@ -10,4 +10,4 @@ export declare type IColumn = IBlockData<{
     'vertical-align'?: string;
     width?: string;
 }, {}>;
-export declare const Column: import("@core/typings").IBlock<IColumn>;
+export declare const Column: import("../../../typings").IBlock<IColumn>;

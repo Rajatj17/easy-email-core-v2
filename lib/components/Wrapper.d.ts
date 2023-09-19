@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IWrapper } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IWrapper } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type WrapperProps = RecursivePartial<IWrapper['data']> & RecursivePartial<IWrapper['attributes']> & {
     children?: MjmlBlockProps<IWrapper>['children'];
 };

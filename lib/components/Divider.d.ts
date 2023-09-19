@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IDivider } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IDivider } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type DividerProps = RecursivePartial<IDivider['data']> & RecursivePartial<IDivider['attributes']> & {
     children?: MjmlBlockProps<IDivider>['children'];
 };

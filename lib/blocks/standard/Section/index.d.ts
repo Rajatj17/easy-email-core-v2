@@ -1,5 +1,5 @@
 import { CSSProperties } from 'react';
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type ISection = IBlockData<{
     'background-color'?: string;
     'background-position'?: string;
@@ -16,4 +16,4 @@ export declare type ISection = IBlockData<{
     'text-align'?: CSSProperties['textAlign'];
     'max-width'?: string;
 }, {}>;
-export declare const Section: import("@core/typings").IBlock<ISection>;
+export declare const Section: import("../../../typings").IBlock<ISection>;

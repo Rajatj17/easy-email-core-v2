@@ -1,4 +1,4 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../typings';
 export interface JsonToMjmlOptionProduction {
     idx?: string | null;
     data: IBlockData;

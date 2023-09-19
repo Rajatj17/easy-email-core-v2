@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IRaw } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IRaw } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type RawProps = RecursivePartial<IRaw['data']> & RecursivePartial<IRaw['attributes']> & {
     children?: MjmlBlockProps<IRaw>['children'];
 };

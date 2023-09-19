@@ -1,4 +1,4 @@
-import { AdvancedBlock } from '@core/blocks/advanced/generateAdvancedBlock';
+import { AdvancedBlock } from '../blocks/advanced/generateAdvancedBlock';
 import React from 'react';
 declare function generateIterationTemplate(option: NonNullable<AdvancedBlock['data']['value']['iteration']>, content: React.ReactElement): JSX.Element;
 declare function generateConditionTemplate(option: NonNullable<AdvancedBlock['data']['value']['condition']>, content: React.ReactElement): JSX.Element;

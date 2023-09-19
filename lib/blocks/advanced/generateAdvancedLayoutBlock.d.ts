@@ -1,4 +1,4 @@
-import { BasicType } from '@core/constants';
+import { BasicType } from '../../constants';
 import { AdvancedBlock } from './generateAdvancedBlock';
 export declare function generateAdvancedLayoutBlock<T extends AdvancedBlock>(option: {
     type: string;

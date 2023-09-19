@@ -1,4 +1,4 @@
-import { IBlock, IBlockData } from '@core/typings';
+import { IBlock, IBlockData } from '../../../typings';
 export declare type IAccordionTitle = IBlockData<{
     color?: string;
     'background-color'?: string;

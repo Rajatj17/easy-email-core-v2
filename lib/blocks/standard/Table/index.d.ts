@@ -1,5 +1,5 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type ITable = IBlockData<{}, {
     content: string;
 }>;
-export declare const Table: import("@core/typings").IBlock<ITable>;
+export declare const Table: import("../../../typings").IBlock<ITable>;

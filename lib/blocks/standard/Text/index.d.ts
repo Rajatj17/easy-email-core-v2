@@ -1,4 +1,4 @@
-import { IBlockData } from '@core/typings';
+import { IBlockData } from '../../../typings';
 export declare type IText = IBlockData<{
     color?: string;
     'font-family'?: string;
@@ -17,4 +17,4 @@ export declare type IText = IBlockData<{
 }, {
     content: string;
 }>;
-export declare const Text: import("@core/typings").IBlock<IText>;
+export declare const Text: import("../../../typings").IBlock<IText>;

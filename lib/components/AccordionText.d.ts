@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IAccordionText } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IAccordionText } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type AccordionTextProps = RecursivePartial<IAccordionText['data']> & RecursivePartial<IAccordionText['attributes']> & {
     children?: MjmlBlockProps<IAccordionText>['children'];
 };

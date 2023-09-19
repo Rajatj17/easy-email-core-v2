@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { INavbar } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { INavbar } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type NavbarProps = RecursivePartial<INavbar['data']> & RecursivePartial<INavbar['attributes']> & {
     children?: MjmlBlockProps<INavbar>['children'];
 };

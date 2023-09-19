@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { IButton } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { IButton } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type ButtonProps = RecursivePartial<IButton['data']> & RecursivePartial<IButton['attributes']> & {
     children?: MjmlBlockProps<IButton>['children'];
 };

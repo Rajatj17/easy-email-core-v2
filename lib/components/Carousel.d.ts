@@ -1,6 +1,6 @@
-import { RecursivePartial } from '@core/typings';
-import { ICarousel } from '@core/blocks';
-import { MjmlBlockProps } from '@core/components/MjmlBlock';
+import { RecursivePartial } from '../typings';
+import { ICarousel } from '../blocks';
+import { MjmlBlockProps } from '../components/MjmlBlock';
 export declare type CarouselProps = RecursivePartial<ICarousel['data']> & RecursivePartial<ICarousel['attributes']> & {
     children?: MjmlBlockProps<ICarousel>['children'];
 };
